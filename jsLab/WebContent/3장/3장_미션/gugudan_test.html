@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>구구단</title>
+<meta charset="UTF-8">
+</head>
+<body>
+	<center>
+		<h1>구구단</h1>
+	</center>
+	<table border=1 align=center width=800 height=280>
+		<tr>
+			<script language="javascript">
+			for(i=2;i<=9;i++){
+				document.write("<th>"+i+"단</th>")
+				}
+						
+			</script>
+
+		</tr>
+		<tr>
+			<script language="javascript">
+			for(i=2;i<=9;i++){
+				document.write("<td>")
+				for(k=1;k<=9;k++){
+					document.write(i+"*"+k+"="+i*k+"<br/>")
+				}
+				document.write("</td>")
+			}
+			</script>
+		</tr>
+
+	</table>
+</body>
+</html>
